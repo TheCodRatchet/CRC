@@ -1,0 +1,25 @@
+{
+  "inputFlags": [
+    "-i",
+    "--input"
+  ],
+  "inputFile": "file.txt",
+  "filterFlags": [
+    "-f",
+    "--format"
+  ],
+  "charFlags": [
+    "-L",
+    "-P",
+    "-S"
+  ],
+  "filters": [
+    "non-repeating",
+    "least-repeating",
+    "most-repeating"
+  ],
+  "forbiddenChars": [
+    " ",
+    "\n"
+  ]
+}
