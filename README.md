@@ -8,15 +8,17 @@ To use this app follow steps mentioned below:
 4. In terminal type following command: php script.php -i inputFileName -f filterName flags;
 
 This application has the following filters:
+
 1. most-repeating
 2. least-repeating
 3. non-repeating
 
 This application has the following flags:
+
 1. -L (letters)
 2. -P (punctuation)
 3. -S (symbols)
 
-Example of command line in terminal: 
+Example of command line in terminal:
 
 php script.php -i file.txt -f most-repeating -L -P -S

@@ -17,7 +17,7 @@ class Input
     {
         $this->validator = new InputValidator();
 
-        if (count($input) < 6 || count($input) > 8) {
+        if (count($input) < 6 || count($input) > 8) { //Checks if command line has more or less conditions than required
             exit('error code 4');
         }
 
